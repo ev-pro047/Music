@@ -1,5 +1,10 @@
 /* Mobile navigation and WhatsApp brand icon overrides */
 
+/* Remove the mouse-shaped scroll indicator from the hero. */
+.scroll-cue {
+  display: none !important;
+}
+
 /* Replace the generic chat bubble with the recognizable WhatsApp glyph. */
 .button-glass svg,
 .floating-whatsapp svg {
